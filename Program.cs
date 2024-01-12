@@ -73,7 +73,7 @@ Console.WriteLine();
        {
             if (indexsM < 0 | indexsM > array2D.GetLength(0) - 1 | indexsN < 0 | indexsN > array2D.GetLength(1) - 1)
             {
-                Console.WriteLine("Числа с такими позициями в массиве нет !!! ");
+                Console.WriteLine("Введенные данные за пределами данного массива. Числа с такими позициями в массиве нет !!! ");
                 return; 
             }
             else
